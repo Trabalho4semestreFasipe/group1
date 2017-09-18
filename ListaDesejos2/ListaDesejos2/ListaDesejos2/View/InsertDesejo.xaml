@@ -32,6 +32,10 @@
                 <Label Text="Valor Máximo"/>
                 <Entry Placeholder="R$" Keyboard="Numeric"/>
             </StackLayout>
+            <StackLayout>
+                <Button VerticalOptions="Center" Text="SALVAR" Style="{StaticResource buttonMenu}"></Button>
+                <Button VerticalOptions="Center" Text="CANCELAR"  Style="{StaticResource buttonMenu}"></Button>
+            </StackLayout>
            
         </StackLayout>
     </ContentPage.Content>
