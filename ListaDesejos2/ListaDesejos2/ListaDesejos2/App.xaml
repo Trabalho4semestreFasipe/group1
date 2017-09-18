@@ -4,7 +4,26 @@
              x:Class="ListaDesejos2.App">
 	<Application.Resources>
 
-		<!-- Application resource dictionary -->
+        <ResourceDictionary>
+            <Color x:Key="azulTopo">#2196f3</Color>
+            <Color x:Key="labelTopo">White</Color>
 
-	</Application.Resources>
+            <Style x:Key="buttonMenu" TargetType="Button">
+                <Setter Property="BorderRadius" Value="1"/>
+                <Setter Property="TextColor" Value="{StaticResource labelTopo}"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource azulTopo}"/>
+            </Style>
+            <Style x:Key="widget" TargetType="StackLayout">
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="MinimumHeightRequest" Value="100"/>
+            </Style>
+            <Style x:Key="labelWidget" TargetType="Label">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="VerticalTextAlignment" Value="Start"/>
+            </Style>
+
+
+        </ResourceDictionary>
+
+    </Application.Resources>
 </Application>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListaDesejos2.View.Menu"
+             Title="Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HeightRequest="150" BackgroundColor="{StaticResource azulTopo}">
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="Desejos" TextColor="{StaticResource labelTopo}" FontSize="36"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <Button VerticalOptions="Center" Text="Listar Desejos" Clicked="ListarDesejos" Style="{StaticResource buttonMenu}"></Button>
+                <Button VerticalOptions="Center"  Text="Inserir Desejo" Clicked="InserirDesejo" Style="{StaticResource buttonMenu}"></Button>
+                <Button VerticalOptions="Center"  Text="Editar Desejo" Clicked="EditarDesejo" Style="{StaticResource buttonMenu}"></Button>
+                <Button VerticalOptions="Center"  Text="Detalhar Desejo" Clicked="DetalharDesejo" Style="{StaticResource buttonMenu}"></Button>
+
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
